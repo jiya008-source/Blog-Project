@@ -8,6 +8,7 @@ const API_URL = "http://localhost:4000";
 
 app.use(express.static("public"));
 
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
